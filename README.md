@@ -8,11 +8,6 @@ A great tool for code coverage checking a config/schema driven application.
 npm install --save-dev objcov
 ```
 
-(or) globally:
-```bash
-npm install -g objcov
-```
-
 ## Usage
 ```javascript
 const objcov = require('objcov');
