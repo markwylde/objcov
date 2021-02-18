@@ -1,0 +1,29 @@
+{
+  "name": "objcov",
+  "version": "1.0.0",
+  "description": "Watch a javascript object and get statistics about how it has been used within your code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dot-object": "^2.1.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "basictap": "^1.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/objcov.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markwylde/objcov/issues"
+  },
+  "homepage": "https://github.com/markwylde/objcov#readme"
+}
