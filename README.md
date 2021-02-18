@@ -33,7 +33,7 @@ if (watchedConfig.one === 1) {
   JSON.stringify(watchedConfig.people[0]);
 }
 
-const coverageCheck = objcov.check(config);
+const coverageCheck = objcov.check(watchedConfig);
 
 console.log(coverageCheck);
 
@@ -56,7 +56,7 @@ console.log(coverageCheck);
     'one'
   ],
   untouched: ['people.1.id', 'people.1.firstName', 'people.1.lastName'],
-  percentTouched: 0.43
+  percentTouched: 0.5714285714285714
 }
 */
 ```

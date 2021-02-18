@@ -45,6 +45,6 @@ test('flat object', t => {
       'one'
     ],
     untouched: ['people.1.id', 'people.1.firstName', 'people.1.lastName'],
-    percentTouched: 0.43
+    percentTouched: 0.5714285714285714
   });
 });

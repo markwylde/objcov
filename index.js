@@ -39,7 +39,7 @@ function check (watchedObject) {
     touched,
     all,
     untouched,
-    percentTouched: parseFloat((untouched.length / all.length).toPrecision(2))
+    percentTouched: 1 - parseFloat(untouched.length / all.length, 2)
   };
 }
 
