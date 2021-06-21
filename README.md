@@ -56,7 +56,7 @@ console.log(coverageCheck);
     'one'
   ],
   untouched: ['people.1.id', 'people.1.firstName', 'people.1.lastName'],
-  percentTouched: 0.5714285714285714
+  percentTouched: 0.57
 }
 */
 ```

@@ -35,11 +35,13 @@ function check (watchedObject) {
     return !touched.includes(key);
   });
 
+  const percentTouched = 1 - parseFloat(untouched.length / all.length);
+
   return {
     touched,
     all,
     untouched,
-    percentTouched: 1 - parseFloat(untouched.length / all.length, 2)
+    percentTouched: parseFloat(percentTouched.toFixed(2))
   };
 }
 
