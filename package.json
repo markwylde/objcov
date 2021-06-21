@@ -1,6 +1,6 @@
 {
   "name": "objcov",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Watch a javascript object and get statistics about how it has been used within your code.",
   "main": "index.js",
   "scripts": {
